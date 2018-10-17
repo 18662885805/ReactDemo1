@@ -1,0 +1,140 @@
+html{
+	font-size: 16px;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;	
+	list-style: none;
+	text-decoration: none;
+}
+
+h1{
+	font-weight: normal;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color:pink;
+  height: 10rem;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5rem;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.Title{
+	width: 100%;
+	height: 3rem;
+	line-height: 3rem;
+	background: palegreen;
+	font-size: 1.2rem;
+	color: white;
+	position:fixed;
+	top:0
+}
+
+.Footer{
+	width: 100%;
+	height: 3rem;
+	line-height: 3rem;
+	background: pink;
+	font-size: 1.2rem;
+	color: white;
+	position:fixed;
+	bottom:0
+}
+
+.Nav{
+	margin-top: 3rem;
+	background: burlywood;
+	font-size: 0.8rem;
+	padding: 0.5rem;
+}
+
+.Nav ul{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.Nav ul li{	
+	height: 2rem;
+	width: 20%;
+	line-height: 2rem;
+	background: white;
+	border-radius: 5rem;
+}
+
+.Nav ul .active{
+	display: block;
+	height: 2rem;
+	width: 100%;
+	line-height: 2rem;
+	background: yellow;
+	border-radius: 5rem;
+}
+
+.Content{
+	width: 100%;
+	height: 18rem;
+	background: lightseagreen;
+}
+
+.Content1{
+	width: 100%;
+	height: 30rem;
+	background: cadetblue;
+}
+
+.Content2{
+	width: 100%;
+	height: 18rem;
+	background: darkslateblue;
+}
+
+.Content3{
+	width: 100%;
+	height: 18rem;
+	background: blueviolet;
+}
+
+.Zan button{
+	height: 4rem;
+	width: 16rem;
+	background:lawngreen;
+	color:white;
+	font-size: 2rem;
+}
+
+#add{ 
+	width: 5rem;
+	height: 3rem;
+	line-height: 3rem;
+	background: orange;
+	color: white;
+	font-weight: bold;
+	margin: 1rem auto;
+	border-radius: 0.5rem;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

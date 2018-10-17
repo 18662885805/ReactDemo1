@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			.popup_main{width: 420px;min-height: 200px;position: fixed;left: 50%;margin-left: -210px;top: 50%;margin-top: -200px;border-radius: 10px;border: 1px solid #c8c8c8;box-shadow:0 2px 6px 1px #ccc;overflow: hidden;background: #fff;padding-bottom: 20px;outline: none}
+			.popup_main .popup_head{background: #12337A;height: 30px;line-height: 30px;color: #fff;text-align: center;position: relative;}
+			.popup_main .popup_head .icon_close{background: url(../store/choose_08.png) no-repeat center center;background-size: 13px;position: absolute;right: 10px;width: 30px;height: 30px;cursor: pointer;}
+			.popup_main .popup_body{height: 300px;overflow: auto;} 
+			.popup_main .popup_footer{text-align: center;}
+			.footer_btn{display: inline-block;cursor: pointer;}
+			/*.footer_btn{background-color:#a6a6a6 ;}*/
+			.yellow_btn{display: inline-block;width:100px;height: 30px;line-height: 30px;background: #fe9833;color: #fff;border-radius: 15px;}
+			.optional_popup{padding: 0 10px;}
+			.optional_popup .stock_info{text-align: center;height: 30px;line-height: 30px;color: #a6a6a6;}
+			.optional_popup .stock_info .name{display: inline-block;vertical-align: middle;max-width: 86%;}
+		</style>
+	</head>
+	<body>
+		<div class="popup_main"></div>
+		<div class="popup_main">
+			<div class="popup_head">
+				<div class="icon_close">
+					
+				</div>
+				<div class="popup_title">
+					<span>编辑相关组合</span>
+				</div>
+			</div>
+			<div class="popup_body">
+				<div class="optional_popup">
+					<div class="stock_info">
+						<span class="code">00700</span>
+						<span class="name textOverflow" title="TENCENT">腾讯控股</span>
+					</div>					
+				</div>
+			</div>
+			<div class="popup_footer">
+				<div class="footer_btn yellow_btn">
+					<span>确定</span>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
