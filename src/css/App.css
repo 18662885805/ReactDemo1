@@ -62,7 +62,7 @@ h1{
 
 .Nav{
 	margin-top: 3rem;
-	background: burlywood;
+	background: palegreen;
 	font-size: 0.8rem;
 	padding: 0.5rem;
 }
@@ -99,8 +99,6 @@ h1{
 
 .Content1{
 	width: 100%;
-	height: 30rem;
-	background: cadetblue;
 }
 
 .Content2{

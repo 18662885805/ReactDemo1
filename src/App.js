@@ -7,12 +7,11 @@ import {
 	Switch
 	
 } from 'react-router-dom'
-import Storetest from "./Storetest";
-import Aaa from "./Aaa";
-import AuthUser from './AuthUser'
-import LikeButton from './LikeButton'
-import logo from './logo.svg';
-import './App.css';
+import Storetest from "./components/Storetest";
+import Aaa from "./components/Aaa";
+import AuthUser from './components/AuthUser'
+import LikeButton from './components/LikeButton'
+
 
 
 class Home extends Component {
@@ -82,12 +81,8 @@ class App extends Component {
       <div className="App">
       	<Title />
       	<Nav />
-        <header className="App-header">
-         
-          <h1 className="App-title">React测试项目</h1>
-        </header>
         <p className="App-intro">
-          威廉欧奈尔信息科技(上海)有限公司
+          WILLIAM
         </p>
         <div className="Zan">
         	<LikeButton likedText='路由允许' unlikedText='路由禁止' />

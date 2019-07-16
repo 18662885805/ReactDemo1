@@ -4,7 +4,7 @@ import {
 	Redirect,	
 } from 'react-router-dom'
 import {connect} from 'react-redux';
-import Storetest from "./Storetest";
+import Storetest from './Storetest';
 
 
 class AuthUser extends Component{

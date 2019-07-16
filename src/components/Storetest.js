@@ -1,13 +1,12 @@
 
 import React from 'react';
 //import ReactDOM from 'react-dom';
-import './App.css';
+import '../css/App.css';
 import{connect } from 'react-redux'
 
 class Storetest extends React.Component {
 	
   render () {	
-	let mylist = this.props.mylist; 
 	console.log("this.props:" + this.props.mylist)
     return (
     	<div className="Content3">
